@@ -4,7 +4,7 @@ export default function Links() {
 	return (
 		<div>
 			<ul>
-				<li>
+				<li className={css.link}>
 					<a
 						href=""
 						target="blank">
@@ -12,7 +12,7 @@ export default function Links() {
 						<span className={css.youtube}></span>
 					</a>
 				</li>
-				<li>
+				<li className={css.link}>
 					<a
 						href="https://soundcloud.com/user-809355084/sets/borders"
 						target="blank">
@@ -20,7 +20,7 @@ export default function Links() {
 						<span className={css.soundcloud}></span>
 					</a>
 				</li>
-				<li>
+				<li className={css.link}>
 					<a
 						href=""
 						target="blank">
@@ -28,7 +28,7 @@ export default function Links() {
 						<span className={css.spoty}></span>
 					</a>
 				</li>
-				<li>
+				<li className={css.link}>
 					<a
 						href=""
 						target="blank">

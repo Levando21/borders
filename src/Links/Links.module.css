@@ -1,10 +1,15 @@
 /** @format */
 
+.link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .youtube::before {
 	content: "";
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 3em;
+	height: 3em;
 	margin-left: 0.5em;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -18,8 +23,8 @@
 .apple::before {
 	content: "";
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 3em;
+	height: 3em;
 	border-radius: 50%;
 	margin-left: 0.5em;
 	background-repeat: no-repeat;
@@ -31,8 +36,8 @@
 .spoty::before {
 	content: "";
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 3em;
+	height: 3em;
 	margin-left: 0.5em;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -43,8 +48,8 @@
 .soundcloud::before {
 	content: "";
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 3em;
+	height: 3em;
 	margin-left: 0.5em;
 	background-repeat: no-repeat;
 	background-size: contain;

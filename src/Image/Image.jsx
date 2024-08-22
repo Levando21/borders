@@ -5,7 +5,8 @@ export default function Image() {
 		<div>
 			<img
 				src={bordersImage}
-				width="200"></img>
+				className="picture"
+				width="300"></img>
 		</div>
 	);
 }
