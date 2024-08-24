@@ -22,9 +22,9 @@ export default function Preloader() {
 			});
 
 			tl
-				.from("#title", { opacity: 0, y: "+=30", stagger: 0.5 })
-				.to("#title", { opacity: 0, y: "-=30", stagger: 0.5 })
-				.from("#slide", { xPercent: "-100", duration: 0.5, delay: 0.3 });
+				.from("#title", { opacity: 0, y: "+=30" })
+				.to("#title", { opacity: 0, y: "-=30", delay: 2 })
+				.from("#slide", { xPercent: "-100", duration: 1, delay: 0.3 });
 		}, comp);
 
 		return () => ctx.revert();
@@ -36,11 +36,16 @@ export default function Preloader() {
 				className={css.preloader}
 				id="slide"
 				ref={comp}>
-				<h1
+				<h2
 					className={css.counter}
 					id="title">
-					Engine
-				</h1>
+					Click on platform
+				</h2>
+				<h2
+					className={css.counter}
+					id="title">
+					Build borders
+				</h2>
 			</div>
 		</>
 	);
