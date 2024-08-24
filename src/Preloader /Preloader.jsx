@@ -36,16 +36,18 @@ export default function Preloader() {
 				className={css.preloader}
 				id="slide"
 				ref={comp}>
-				<h2
-					className={css.counter}
-					id="title">
-					Click on platform
-				</h2>
-				<h2
-					className={css.counter}
-					id="title">
-					Build borders
-				</h2>
+				<div className={css.tutle}>
+					<h2
+						className={css.counter}
+						id="title">
+						Click on platform
+					</h2>
+					<h2
+						className={css.counter}
+						id="title">
+						Build borders
+					</h2>
+				</div>
 			</div>
 		</>
 	);
