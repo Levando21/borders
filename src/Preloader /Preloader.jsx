@@ -23,7 +23,7 @@ export default function Preloader() {
 
 			tl
 				.from("#title", { opacity: 0, y: "+=30" })
-				.to("#title", { opacity: 0, y: "-=30", delay: 2 })
+				.to("#title", { opacity: 0, y: "-=30", delay: 1 })
 				.from("#slide", { xPercent: "-100", duration: 1, delay: 0.3 });
 		}, comp);
 
