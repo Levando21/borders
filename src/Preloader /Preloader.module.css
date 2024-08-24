@@ -5,7 +5,7 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background: #07252d;
+	background: #020506;
 	background-size: cover;
 	z-index: 1000;
 	display: flex;
@@ -26,9 +26,10 @@
 	-webkit-box-reflect: below 1px linear-gradient(transparent, #0000);
 	line-height: 0.7em;
 	outline: none;
-	animation: light 4s linear infinite alternate;
+
+	animation: light 3s linear infinite alternate;
 }
-/*@keyframes light {
+@keyframes light {
 	0%,
 	18%,
 	20%,
@@ -38,7 +39,7 @@
 	80%,
 	90.1%,
 	92% {
-		color: #0e3742;
+		color: #12404d;
 		text-shadow: none;
 	}
 
@@ -52,20 +53,7 @@
 	90%,
 	92.1%,
 	100% {
-		color: #fff;
-		text-shadow: 0 0 10px #03bcf4 0 0 20px #03bcf4 0 0 40px #03bcf4 0 0 60px
-			#03bcf4 0 0 80px #03bcf4 0 0 160px #03bcf4;
-	}
-}*/
-
-@keyframes light {
-	0% {
-		color: #0e3742;
-		text-shadow: none;
-	}
-
-	100% {
-		color: #fff;
+		color: #f4f4f6;
 		text-shadow: 0 0 10px #03bcf4 0 0 20px #03bcf4 0 0 40px #03bcf4 0 0 60px
 			#03bcf4 0 0 80px #03bcf4 0 0 160px #03bcf4;
 	}
@@ -73,7 +61,7 @@
 
 @media screen and (max-width: 375px) {
 	.counter {
-		font-size: 3em;
+		font-size: 2em;
 		letter-spacing: 6px;
 		margin-top: 1em;
 	}

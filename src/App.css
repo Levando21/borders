@@ -67,3 +67,12 @@
 .read-the-docs {
 	color: #888;
 }
+
+@media screen and (max-width: 375px) {
+	body {
+		height: 100%;
+	}
+	.blur-background {
+		background-size: contain;
+	}
+}
