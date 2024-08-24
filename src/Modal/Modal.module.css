@@ -2,7 +2,9 @@
 
 .modalcont {
 	margin: 0 auto;
-	width: 300px;
+	align-items: center;
+	justify-content: center;
+	max-width: 300px;
 	min-height: 600px;
 	background-color: #249839;
 	border-radius: 4px;
