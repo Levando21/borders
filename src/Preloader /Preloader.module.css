@@ -1,0 +1,14 @@
+/** @format */
+.preloader {
+	position: fixed; /* Changed from absolute to fixed */
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	background-size: cover;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
