@@ -71,7 +71,7 @@
 	}
 }
 
-@media sreen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
 	.counter {
 		font-size: 3em;
 		letter-spacing: 6px;
