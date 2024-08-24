@@ -70,3 +70,11 @@
 			#03bcf4 0 0 80px #03bcf4 0 0 160px #03bcf4;
 	}
 }
+
+@media sreen and (max-width: 375px) {
+	.counter {
+		font-size: 3em;
+		letter-spacing: 6px;
+		margin-top: 1em;
+	}
+}
