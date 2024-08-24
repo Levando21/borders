@@ -19,6 +19,7 @@
 	font-size: 6em;
 	letter-spacing: 15px;
 
+	margin-top: 1em;
 	color: #0e3742;
 	text-transform: uppercase;
 	width: 100%;
@@ -27,7 +28,7 @@
 	line-height: 0.7em;
 	outline: none;
 
-	animation: light 3s linear infinite alternate;
+	animation: light 5s linear infinite alternate;
 }
 @keyframes light {
 	0%,
@@ -36,6 +37,7 @@
 	50.1%,
 	60%,
 	65.1%,
+	67%,
 	80%,
 	90.1%,
 	92% {
@@ -49,13 +51,14 @@
 	50%,
 	60.1%,
 	65%,
+	67.1%,
 	80.1%,
 	90%,
 	92.1%,
 	100% {
 		color: #f4f4f6;
-		text-shadow: 0 0 10px #03bcf4 0 0 20px #03bcf4 0 0 40px #03bcf4 0 0 60px
-			#03bcf4 0 0 80px #03bcf4 0 0 160px #03bcf4;
+		text-shadow: 0 0 10px #03bcf4 0 0 20px #00c3ff 0 0 40px #03bcf4 0 0 60px
+			#00c3ff 0 0 80px #03bcf4 0 0 160px #03bcf4;
 	}
 }
 

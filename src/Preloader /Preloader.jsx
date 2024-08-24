@@ -40,7 +40,12 @@ export default function Preloader() {
 					<h2
 						className={css.counter}
 						id="title">
-						Click on platform
+						*============*
+					</h2>
+					<h2
+						className={css.counter}
+						id="title">
+						Click on any platform
 					</h2>
 					<h2
 						className={css.counter}
