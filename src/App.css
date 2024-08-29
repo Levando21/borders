@@ -76,3 +76,15 @@
 		background-size: contain;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.blur-background {
+		backdrop-filter: blur(10px);
+		background-size: contain;
+		background: linear-gradient(
+			135deg,
+			rgba(255, 255, 255, 0.05),
+			rgba(255, 255, 255, 0)
+		);
+	}
+}

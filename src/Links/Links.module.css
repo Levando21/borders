@@ -131,3 +131,19 @@ button {
 		transform: rotate(360deg);
 	}
 }
+
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+	.button {
+		width: 300px;
+		height: 90px;
+		margin-top: 40px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.button {
+		width: 400px;
+		height: 120px;
+		margin-top: 60px;
+	}
+}

@@ -6,7 +6,7 @@ export default function Links() {
 			<ul className={css.linklist}>
 				<li className={css.link}>
 					<a
-						href="https://soundcloud.com/user-809355084/sets/borders"
+						href="https://music.youtube.com/playlist?list=OLAK5uy_lQWxD3L9Y9qfEaJzpWInfUD3UKcLeYkRk"
 						target="blank">
 						<button>
 							<div className={css.pulse}>
@@ -38,7 +38,7 @@ export default function Links() {
 				</li>
 				<li className={css.link}>
 					<a
-						href="https://soundcloud.com/user-809355084/sets/borders"
+						href="https://open.spotify.com/album/6kyedvoNENIoKzIIqzqhxX"
 						target="blank">
 						<button>
 							<div className={css.pulse}>
@@ -54,7 +54,7 @@ export default function Links() {
 				</li>
 				<li className={css.link}>
 					<a
-						href="https://soundcloud.com/user-809355084/sets/borders"
+						href="https://music.apple.com/us/album/borders/1763991065"
 						target="blank">
 						<button>
 							<div className={css.pulse}>

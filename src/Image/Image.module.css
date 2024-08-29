@@ -1,1 +1,6 @@
 /** @format */
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+	.picture {
+		width: 280px;
+	}
+}

@@ -23,3 +23,24 @@
 	opacity: 1;
 	visibility: visible;
 }
+
+@media screen and (max-width: 500px) {
+	.modalcont {
+		width: 400px;
+		max-height: 500px;
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+	.modalcont {
+		width: 400px;
+		min-height: 700px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.modalcont {
+		width: 600px;
+		min-height: 700px;
+	}
+}
